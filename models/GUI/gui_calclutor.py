@@ -110,11 +110,3 @@ class App(ctk.CTk):
         self.displayBox.insert(1.0, self.op.evalution())
         self.op.op = self.op.evalution()
         self.dis = self.op.op
-
-        
-        
-
-if __name__ == "__main__":
-    app = App()
-    # Runs the app
-    app.mainloop()
